@@ -21,4 +21,10 @@ class OperationMathematiqueTest {
         int result = OperationMathematique.factorial(number);
         assertEquals(6, result);
     }
+    @Test
+    public void testSortDescendingOrder() {
+        int[] input = {1, 3, 2, 4, 5};
+        int[] expected = {5, 4, 3, 2, 1};
+        assertArrayEquals(expected, OperationMathematique.sort(input));
+    }
 }
