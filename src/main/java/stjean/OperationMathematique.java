@@ -1,9 +1,9 @@
 package stjean;
 
-import
+
 public class OperationMathematique {
 
-    public boolean  estPositif(int number) {
+    public static boolean  estPositif(int number) {
         if(number >= 0){
             return true;
         }
@@ -12,7 +12,7 @@ public class OperationMathematique {
         }
 
     }
-    public int factorial (int number){
+    public static int factorial (int number){
 
         if (number ==  0|| number ==  1){
             return 1;
