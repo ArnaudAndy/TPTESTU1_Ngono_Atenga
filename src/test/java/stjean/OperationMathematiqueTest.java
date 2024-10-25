@@ -16,7 +16,7 @@ class OperationMathematiqueTest {
     }
 
     @org.junit.jupiter.api.Test
-    void factorial() {
+    void factorial() throws IllegalParamISIException {
         int number = 3;
         int result = OperationMathematique.factorial(number);
         assertEquals(6, result);
@@ -26,5 +26,13 @@ class OperationMathematiqueTest {
         int[] input = {1, 3, 2, 4, 5};
         int[] expected = {5, 4, 3, 2, 1};
         assertArrayEquals(expected, OperationMathematique.sort(input));
+    }
+
+    @Test
+    public void testFactorialWithNegativeNumber() {
+        Exception exception = assertThrows(IllegalParamISIException.class, () -> {
+            OperationMathematique.factorial(-5);
+        });
+        assertEquals("Factorial is not defined for negative numbers.", exception.getMessage());
     }
 }

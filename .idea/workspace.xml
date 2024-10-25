@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30620ba1-91f0-4d11-abb4-09d24271ce6d" name="Changes" comment="my first message">
+    <list default="true" id="df3861e8-6681-4794-84e3-4a1597935820" name="Changes" comment="my first message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stjean/OperationMathematique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stjean/OperationMathematique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stjean/OperationMathematiqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stjean/OperationMathematiqueTest.java" afterDir="false" />
@@ -18,7 +18,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,21 +43,25 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ANDY/Desktop/ING4/IT Architecture/UnitTesting&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="stjean" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.OperationMathematiqueTest.testSortDescendingOrder">
+  <component name="RunManager" selected="JUnit.OperationMathematiqueTest.testFactorialWithNegativeNumber">
+    <configuration name="OperationMathematiqueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPTESTU1_Ngono_Atenga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stjean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stjean" />
+      <option name="MAIN_CLASS_NAME" value="stjean.OperationMathematiqueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OperationMathematiqueTest.factorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPTESTU1_Ngono_Atenga" />
       <extension name="coverage">
@@ -70,6 +73,22 @@
       <option name="PACKAGE_NAME" value="stjean" />
       <option name="MAIN_CLASS_NAME" value="stjean.OperationMathematiqueTest" />
       <option name="METHOD_NAME" value="factorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperationMathematiqueTest.testFactorialWithNegativeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPTESTU1_Ngono_Atenga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stjean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stjean" />
+      <option name="MAIN_CLASS_NAME" value="stjean.OperationMathematiqueTest" />
+      <option name="METHOD_NAME" value="testFactorialWithNegativeNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,27 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationMathematiqueTest.testestPositif" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPTESTU1_Ngono_Atenga" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stjean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stjean" />
-      <option name="MAIN_CLASS_NAME" value="stjean.OperationMathematiqueTest" />
-      <option name="METHOD_NAME" value="testestPositif(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OperationMathematiqueTest.testSortDescendingOrder" />
+        <item itemvalue="JUnit.OperationMathematiqueTest.testFactorialWithNegativeNumber" />
         <item itemvalue="JUnit.OperationMathematiqueTest.factorial" />
-        <item itemvalue="JUnit.OperationMathematiqueTest.testestPositif" />
+        <item itemvalue="JUnit.OperationMathematiqueTest" />
+        <item itemvalue="JUnit.OperationMathematiqueTest.testSortDescendingOrder" />
       </list>
     </recent_temporary>
   </component>
