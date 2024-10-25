@@ -13,8 +13,10 @@ public class OperationMathematique {
         }
 
     }
-    public int factorial (int number){
-
+    public int factorial  (int number) throws IllegalParamISIException{
+        if (number < 0) {
+            throw new IllegalParamISIException("The factorial of a negative number does not exit");
+        }
         if (number ==  0|| number ==  1){
             return 1;
         }
