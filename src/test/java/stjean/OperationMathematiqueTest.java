@@ -35,4 +35,9 @@ class OperationMathematiqueTest {
         });
         assertEquals("Factorial is not defined for negative numbers.", exception.getMessage());
     }
+    @Test
+    public void testMaxNumbaWithPositiveNumbers() {
+        double[] values = {1, 3, 4, 5, 8};
+        assertEquals(8, OperationMathematique.maxNumba(values), 0.0001);
+    }
 }
