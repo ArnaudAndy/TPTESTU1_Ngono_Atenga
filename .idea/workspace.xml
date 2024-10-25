@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30620ba1-91f0-4d11-abb4-09d24271ce6d" name="Changes" comment="my first message" />
+    <list default="true" id="30620ba1-91f0-4d11-abb4-09d24271ce6d" name="Changes" comment="my first message">
+      <change beforePath="$PROJECT_DIR$/src/test/java/stjean/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stjean/UserTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,14 +39,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -53,7 +55,7 @@
       <recent name="stjean" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.testAddUserWithValidEmail">
+  <component name="RunManager" selected="JUnit.UserTest.testGetRichestUserWhenNoUsers">
     <configuration name="UserTest.testAddUserWithInvalidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPTESTU1_Ngono_Atenga" />
       <extension name="coverage">
@@ -86,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testDeleteUserSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.testAnalyseSoldeGeneralThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TPTESTU1_Ngono_Atenga" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +98,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="stjean" />
       <option name="MAIN_CLASS_NAME" value="stjean.UserTest" />
-      <option name="METHOD_NAME" value="testDeleteUserSuccessfully" />
+      <option name="METHOD_NAME" value="testAnalyseSoldeGeneralThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testGetRichestUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPTESTU1_Ngono_Atenga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stjean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stjean" />
+      <option name="MAIN_CLASS_NAME" value="stjean.UserTest" />
+      <option name="METHOD_NAME" value="testGetRichestUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testGetRichestUserWhenNoUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPTESTU1_Ngono_Atenga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stjean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stjean" />
+      <option name="MAIN_CLASS_NAME" value="stjean.UserTest" />
+      <option name="METHOD_NAME" value="testGetRichestUserWhenNoUsers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,9 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.testGetRichestUserWhenNoUsers" />
+        <item itemvalue="JUnit.UserTest.testAnalyseSoldeGeneralThrowsException" />
+        <item itemvalue="JUnit.UserTest.testGetRichestUser" />
         <item itemvalue="JUnit.UserTest.testAddUserWithValidEmail" />
         <item itemvalue="JUnit.UserTest.testAddUserWithInvalidEmail" />
-        <item itemvalue="JUnit.UserTest.testDeleteUserSuccessfully" />
       </list>
     </recent_temporary>
   </component>
